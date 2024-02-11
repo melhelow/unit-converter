@@ -4,6 +4,7 @@ class Convert
   def initialize
     @kilogram = []
   end
+  
   def run
     loop do
       puts "\n"
@@ -16,30 +17,29 @@ class Convert
       puts "\n"
       case option
       when 1
-        mult_input
+        print "What is your weight in Kg? "
+        kilogram = gets.chomp.to_f
+        puts "Your weight is #{mult_input(kilogram)} lb."
       when 2 
-        div_input
+        print "What is your weight in lb? "
+        pound = gets.chomp.to_f
+        puts "Your weight is #{div_input(pound)} kg."
       when 3
         puts "Thank you for using my app!"
         break
-     
       end
     end
   end
-end
 
-def mult_input
-  print "what is your weight in Kg?"
-  kilogram = gets.chomp
-input = kilogram.to_i
-result = input * 2.20462
-puts " your weight is #{result} lb."
-end
+  def mult_input(kilogram)
+    input = kilogram
+    result = input * 2.20462
+    return result
+  end
 
-def div_input
-  print "What is your weight in lb? "
-  pound = gets.chomp
-  input = pound.to_i
-  result = input * 0.45359237
-  puts "Your weight is #{result} kg."
+  def div_input(pound)
+    input = pound
+    result = input * 0.45359237
+    return result
+  end
 end
