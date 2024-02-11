@@ -10,6 +10,12 @@ By creating Unit Converter, my goal is simplify the process of converting weight
 ## how to use it
 in your terminal run `ruby app.rb` then choose your prefered option either is it `1` or `2`
 
+## Minitest
+
+Minitest is also available for 2 functions the conversion from LB to KG and the conversion from KG to LB
+
+in your terminal run `ruby tests/test_prompt.rb`
+
 ## used Technologies
 - Sinatra ,Ruby 
 
