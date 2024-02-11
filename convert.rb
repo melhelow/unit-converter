@@ -5,6 +5,8 @@ class Convert
     @kilogram = kilogram
     @pound = pound
   end
+  @kilogram = value.round(3)
+end
 end
 
   
