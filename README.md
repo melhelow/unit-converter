@@ -2,7 +2,7 @@
 
 ## Description
 
-Unit converter is a simple CLI app that ptovide a unit conversion from KG to LB and from LB to KG
+Unit converter is a simple CLI app that provide a unit conversion from KG to LB and from LB to KG
 ## Usage
 
 By creating Unit Converter, my goal is simplify the process of converting weight .I also wanted to implement what i learened from this curricullam.
