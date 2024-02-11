@@ -17,7 +17,7 @@ Minitest is also available for 2 functions the conversion from LB to KG and the 
 in your terminal run `ruby tests/test_prompt.rb`
 
 ## used Technologies
-- Sinatra ,Ruby 
+- Sinatra ,Ruby, Minitest
 
 ![Getting Started](./assets/1.png)
 ![Getting Started](./assets/2.png)
